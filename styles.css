@@ -1,0 +1,41 @@
+.grid-container {
+    width : 660px;
+    height : 660px;
+    background-color: gray;
+}
+
+.screen-wrapper {
+    width : 100vw;
+    height : 100vh;
+    display : flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items : center;
+}
+
+.grid-rows {
+    height : 100%;
+    width : 100%;
+    display : flex;
+    flex-direction: column;
+    background-color: green;   
+}
+
+.grid-row {
+    flex : 1;
+    display : flex;
+}
+.grid-square {
+    flex : 1;
+    border : 1px solid black;
+}
+
+.activated {
+    background-color: black;
+}
+
+.reset-button {
+    font-size: 60px;
+    margin-bottom : 40px;
+    padding : 20px 60px;  
+}

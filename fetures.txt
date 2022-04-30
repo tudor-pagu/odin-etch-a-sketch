@@ -1,0 +1,7 @@
+The will describe the wanted features:
+
+A resizable square grid of divs with a default size of 16*16.
+For every dive, whenever the mouse scrolss onto it, it should
+be colored black.
+
+A surrounding frame around it with a title: Etch-a-Sketch
